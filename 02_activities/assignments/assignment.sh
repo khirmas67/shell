@@ -1,4 +1,4 @@
-#!/bin/bash
+o#!/bin/bash
 set -x
 
 ################
@@ -15,7 +15,7 @@ ls
 cd dir2/
 touch file1.txt file2.txt file3.txt file4.txt file5.txt
 # 4. Append the words "Hello world" to dir2/file3
-
+echo  "Hello world" >> file3.txt
 # 5. Verify that file3 contains the words "hello world" by printing the contents of the file in the terminal
 
 # 6. Delete file4
